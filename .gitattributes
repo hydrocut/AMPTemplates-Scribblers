@@ -1,0 +1,3 @@
+# Le lanceur et la liste de mots sont lus par bash et awk dans le conteneur : toujours en LF.
+*.sh text eol=lf
+*.txt text eol=lf

@@ -1,0 +1,9 @@
+[
+    {
+        "Protocol": "TCP",
+        "Port": 8380,
+        "Ref": "HttpPort",
+        "Name": "Port web du jeu",
+        "Description": "Seul port, en TCP : la page web du jeu ET ses WebSockets. Les joueurs ouvrent http://IP:port dans leur navigateur, ou passent par nginx en HTTPS (README). Le jeu met 8080 par defaut, mais 8080-8125 sont pris par les panneaux d'AMP sur le serveur TeamKit : 8380 est libre."
+    }
+]

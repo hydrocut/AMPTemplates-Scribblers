@@ -1,0 +1,43 @@
+[
+    {
+        "UpdateStageName": "Scribble.rs (derniere version publiee sur GitHub)",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://github.com/scribble-rs/scribble.rs/releases/latest/download/scribblers-linux-x64",
+        "UpdateSourceArgs": "scribblers-linux-x64",
+        "UpdateSourceTarget": "{{$FullBaseDir}}",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": true,
+        "SkipOnFailure": false
+    },
+    {
+        "UpdateStageName": "Script de lancement",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://raw.githubusercontent.com/hydrocut/AMPTemplates-Scribblers/main/scripts/lancer-scribblers.sh",
+        "UpdateSourceArgs": "lancer-scribblers.sh",
+        "UpdateSourceTarget": "{{$FullBaseDir}}",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": true,
+        "SkipOnFailure": false
+    },
+    {
+        "UpdateStageName": "Liste de mots TeamKit (familiale, francaise)",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://raw.githubusercontent.com/hydrocut/AMPTemplates-Scribblers/main/scripts/mots-teamkit-famille.txt",
+        "UpdateSourceArgs": "mots-teamkit-famille.txt",
+        "UpdateSourceTarget": "{{$FullBaseDir}}",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": true,
+        "SkipOnFailure": false
+    },
+    {
+        "UpdateStageName": "Verification du binaire",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "/bin/bash",
+        "UpdateSourceArgs": "\"{{$FullBaseDir}}lancer-scribblers.sh\" verifier",
+        "SkipOnFailure": false
+    }
+]

@@ -1,0 +1,809 @@
+# Liste de mots TeamKit pour Scribble.rs : familiale, en français, faite pour être DESSINÉE.
+# Écrite à la main pour TeamKit (10 oct. 2026). Libre de droits : reprenez-la, améliorez-la.
+#
+# Règles de la liste (vérifiées par verifier.py) :
+#  - un mot ou une expression par ligne, en minuscules ; les lignes qui commencent par # sont ignorées ;
+#  - jamais de virgule (Scribble.rs sépare les mots par des virgules) ;
+#  - jamais d'apostrophe : le jeu ignore espaces, tirets et accents dans les propositions
+#    (« pere noel » trouve « père noël »), mais pas l'apostrophe ;
+#  - des choses qu'on peut dessiner : pas de mots abstraits, rien de violent ni de gênant devant des enfants ;
+#  - aucun doublon.
+
+# Animaux de la ferme et de la maison
+chat
+chien
+lapin
+cheval
+poney
+vache
+cochon
+mouton
+chèvre
+poule
+poussin
+coq
+canard
+oie
+âne
+souris
+hamster
+poisson rouge
+perroquet
+tortue
+
+# Animaux sauvages
+lion
+tigre
+éléphant
+girafe
+zèbre
+hippopotame
+rhinocéros
+crocodile
+singe
+gorille
+panda
+koala
+kangourou
+ours
+ours polaire
+loup
+renard
+hérisson
+écureuil
+castor
+raton laveur
+cerf
+sanglier
+taupe
+chameau
+lama
+paresseux
+lézard
+caméléon
+serpent
+grenouille
+chauve-souris
+hibou
+aigle
+pingouin
+flamant rose
+cygne
+paon
+autruche
+pigeon
+mouette
+toucan
+moustique
+
+# Petites bêtes
+escargot
+papillon
+abeille
+coccinelle
+fourmi
+araignée
+chenille
+libellule
+mouche
+ver de terre
+scarabée
+sauterelle
+
+# Animaux de la mer
+poisson
+requin
+baleine
+dauphin
+pieuvre
+méduse
+crabe
+homard
+étoile de mer
+hippocampe
+phoque
+morse
+tortue de mer
+poisson-clown
+
+# Animaux d'autrefois et d'ailleurs
+dinosaure
+mammouth
+licorne
+dragon
+
+# Fruits
+pomme
+poire
+banane
+orange
+citron
+fraise
+cerise
+raisin
+ananas
+pastèque
+melon
+kiwi
+pêche
+abricot
+noix de coco
+framboise
+myrtille
+prune
+avocat
+
+# Légumes
+carotte
+tomate
+pomme de terre
+salade
+champignon
+oignon
+poivron
+concombre
+aubergine
+citrouille
+petits pois
+brocoli
+épi de maïs
+radis
+poireau
+chou-fleur
+
+# Plats et repas
+pain
+baguette
+croissant
+fromage
+beurre
+œuf au plat
+yaourt
+miel
+confiture
+pizza
+frites
+hamburger
+sandwich
+hot-dog
+spaghettis
+soupe
+riz
+sushi
+saucisse
+poulet rôti
+omelette
+croque-monsieur
+crêpe
+gaufre
+quiche
+raclette
+fondue
+brochette
+tartine
+bol de céréales
+
+# Douceurs
+chocolat
+bonbon
+sucette
+gâteau
+tarte aux pommes
+biscuit
+beignet
+glace
+cornet de glace
+barbe à papa
+pop-corn
+macaron
+éclair au chocolat
+galette des rois
+bûche de noël
+guimauve
+pain au chocolat
+meringue
+churros
+
+# Boissons
+lait
+jus de fruit
+café
+thé
+chocolat chaud
+limonade
+smoothie
+
+# Dans la maison
+maison
+porte
+fenêtre
+toit
+cheminée
+escalier
+lit
+oreiller
+couverture
+canapé
+fauteuil
+chaise
+table
+armoire
+tiroir
+étagère
+lampe
+bougie
+miroir
+horloge
+réveil
+télévision
+télécommande
+rideau
+tapis
+coussin
+radiateur
+sonnette
+boîte aux lettres
+volets
+
+# Cuisine
+frigo
+four
+micro-ondes
+casserole
+poêle
+assiette
+verre
+tasse
+bol
+fourchette
+couteau
+cuillère
+théière
+bouilloire
+grille-pain
+saladière
+rouleau à pâtisserie
+fouet
+tablier
+mixeur
+
+# Salle de bain et ménage
+baignoire
+douche
+robinet
+lavabo
+toilettes
+papier toilette
+savon
+brosse à dents
+dentifrice
+peigne
+sèche-cheveux
+serviette
+canard en plastique
+aspirateur
+balai
+seau
+éponge
+machine à laver
+fer à repasser
+pince à linge
+
+# Objets de tous les jours
+parapluie
+clé
+cadenas
+enveloppe
+timbre
+lunettes
+lunettes de soleil
+montre
+bague
+collier
+sac à main
+valise
+portefeuille
+pièce de monnaie
+tirelire
+ampoule
+pile
+aimant
+lampe de poche
+téléphone
+ordinateur
+clavier
+tablette
+casque audio
+appareil photo
+imprimante
+haut-parleur
+manette
+console de jeux
+
+# École et bureau
+ciseaux
+colle
+crayon
+crayon de couleur
+stylo
+gomme
+règle
+taille-crayon
+cartable
+trousse
+livre
+cahier
+tableau noir
+craie
+globe terrestre
+loupe
+calculatrice
+agrafeuse
+trombone
+pupitre
+
+# Bricolage et jardin
+marteau
+clou
+tournevis
+scie
+perceuse
+échelle
+pelle
+râteau
+arrosoir
+brouette
+tondeuse
+tuyau
+corde
+nain de jardin
+boîte à outils
+nichoir
+épouvantail
+cabane de jardin
+pot de fleurs
+sécateur
+
+# Jouets et jeux
+ballon
+cerf-volant
+poupée
+ours en peluche
+toupie
+puzzle
+dé
+cartes à jouer
+robot
+yoyo
+trottinette
+skateboard
+patins à roulettes
+toboggan
+balançoire
+château de sable
+bulles de savon
+ballon de baudruche
+billes
+pâte à modeler
+cubes
+train électrique
+voiture téléguidée
+maison de poupée
+échiquier
+poupée russe
+cheval à bascule
+bac à sable
+tipi
+
+# Vêtements et accessoires
+chapeau
+casquette
+bonnet
+écharpe
+gants
+moufles
+manteau
+pull
+tee-shirt
+chemise
+cravate
+nœud papillon
+pantalon
+short
+jupe
+robe
+chaussettes
+chaussures
+baskets
+bottes
+bottes de pluie
+pantoufles
+maillot de bain
+pyjama
+ceinture
+sac à dos
+couronne
+casque de vélo
+tutu
+cape
+
+# Transports
+voiture
+camion
+bus
+moto
+vélo
+tracteur
+train
+métro
+tramway
+avion
+hélicoptère
+bateau
+voilier
+sous-marin
+fusée
+montgolfière
+ambulance
+camion de pompiers
+voiture de police
+taxi
+canoë
+pédalo
+téléphérique
+caravane
+péniche
+parachute
+bulldozer
+grue
+camping-car
+locomotive
+
+# Sur la route et en ville
+feu rouge
+panneau stop
+passage piéton
+rond-point
+pont
+tunnel
+gare
+aéroport
+station-service
+parking
+lampadaire
+banc public
+fontaine
+statue
+poubelle
+
+# Ciel et météo
+soleil
+lune
+étoile
+nuage
+pluie
+neige
+orage
+éclair
+arc-en-ciel
+tornade
+flocon de neige
+étoile filante
+planète
+comète
+vent
+
+# Paysages et nature
+montagne
+volcan
+colline
+rivière
+cascade
+lac
+mer
+plage
+vague
+île
+désert
+forêt
+jungle
+grotte
+rocher
+sable
+iceberg
+igloo
+dune
+marais
+
+# Plantes
+arbre
+palmier
+sapin
+fleur
+rose
+tournesol
+marguerite
+tulipe
+cactus
+feuille
+herbe
+branche
+racine
+gland
+pomme de pin
+coquillage
+bouquet
+trèfle
+nénuphar
+champignon vénéneux
+
+# Métiers
+pompier
+policier
+médecin
+infirmière
+dentiste
+boulanger
+cuisinier
+facteur
+pilote
+astronaute
+coiffeur
+vétérinaire
+plongeur
+bûcheron
+détective
+arbitre
+maître-nageur
+agriculteur
+peintre
+jardinier
+musicien
+footballeur
+maçon
+caissière
+serveur
+photographe
+scientifique
+chauffeur de bus
+mécanicien
+boucher
+
+# Personnages et contes
+pirate
+chevalier
+princesse
+prince
+roi
+reine
+sorcière
+fée
+magicien
+clown
+fantôme
+momie
+extraterrestre
+sirène
+géant
+lutin
+père noël
+bonhomme de neige
+cow-boy
+ninja
+super-héros
+ogre
+vampire
+loup-garou
+petit chaperon rouge
+pinocchio
+robin des bois
+blanche-neige
+cendrillon
+ange
+
+# Lieux et bâtiments
+école
+hôpital
+château
+tour eiffel
+phare
+moulin
+ferme
+grange
+cabane
+tente
+pyramide
+zoo
+cirque
+musée
+cinéma
+piscine
+bibliothèque
+boulangerie
+supermarché
+restaurant
+parc
+stade
+fête foraine
+grande roue
+manège
+montagnes russes
+prison
+port
+village
+potager
+puits
+gratte-ciel
+caserne de pompiers
+pharmacie
+église
+
+# Sports
+football
+basket
+tennis
+ping-pong
+rugby
+golf
+ski
+snowboard
+patinage
+natation
+plongée
+surf
+judo
+boxe
+escalade
+pêche à la ligne
+équitation
+saut à la corde
+bowling
+billard
+fléchettes
+handball
+volley
+badminton
+trampoline
+haltères
+cerceau
+podium
+médaille
+trophée
+
+# Musique et arts
+guitare
+piano
+batterie
+violon
+trompette
+flûte
+tambour
+harpe
+accordéon
+micro
+xylophone
+maracas
+partition
+note de musique
+pinceau
+palette de peinture
+chevalet
+pot de peinture
+sculpture
+
+# Le corps
+œil
+nez
+bouche
+oreille
+dent
+langue
+main
+pied
+doigt
+bras
+jambe
+genou
+cheveux
+moustache
+barbe
+sourcils
+cœur
+squelette
+os
+empreinte de pas
+nombril
+cerveau
+ventre
+épaule
+coude
+pouce
+ongle
+tresse
+chignon
+cil
+
+# Ce qu'on fait
+dormir
+nager
+danser
+courir
+sauter
+pleurer
+rire
+éternuer
+bâiller
+applaudir
+chanter
+lire
+cuisiner
+jongler
+sourire
+ronfler
+grimper
+tricoter
+siffler
+pêcher
+glisser
+plonger
+ramer
+jardiner
+bouder
+câlin
+bisou
+coucou
+tirer la langue
+faire la sieste
+
+# Fêtes et magie
+anniversaire
+gâteau aux bougies
+cadeau
+guirlande
+sapin de noël
+boule de noël
+masque
+déguisement
+confettis
+lanterne
+trésor
+carte au trésor
+coffre au trésor
+épée
+bouclier
+arc
+flèche
+baguette magique
+chaudron
+balai de sorcière
+potion
+boule de cristal
+tapis volant
+lampe magique
+château fort
+pont-levis
+œuf de pâques
+citrouille sculptée
+chapeau de magicien
+
+# Mer et voyage
+ancre
+gouvernail
+longue-vue
+boussole
+carte
+drapeau
+sablier
+cloche
+bouée
+pirogue
+radeau
+hamac
+transat
+parasol
+seau de plage
+moulin à vent
+éolienne
+panneau solaire
+satellite
+soucoupe volante

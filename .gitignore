@@ -1,0 +1,10 @@
+# Ce depot ne contient que le template : le binaire vient des releases GitHub de
+# Scribble.rs, telecharge a chaque Update. Rien de ce qui suit ne doit y entrer.
+scribblers/
+scribblers-linux-x64
+mots-perso.txt
+.env
+__pycache__/
+
+# Notes internes de TeamKit (essais, etapes), pas dans le depot public
+FAISABILITE.md
