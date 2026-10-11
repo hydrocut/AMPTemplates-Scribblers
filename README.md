@@ -225,6 +225,7 @@ navigateur** (sans compte, sans pub, rien à installer). Un seul port **TCP**, *
 - **Derrière nginx en HTTPS** (`dessin.teamkit.fr`) : configuration complète plus haut, testée,
   avec le WebSocket et `X-Forwarded-For $remote_addr` (sinon la limite par IP se contourne).
 - Pas de liste de joueurs dans AMP (le jeu n'écrit pas qui arrive) : le script écrit le nombre de
-  joueurs et de salons quand il change. Tout est en mémoire : un redémarrage ferme les salons.
+  joueurs et de salons quand il change. `App.MaxUsers=24` (un salon plein, défaut de « Joueurs par
+  salon ») n'est que la capacité affichée par AMP et le site. Tout est en mémoire : un redémarrage ferme les salons.
 - **Testé en vrai** le 10 oct. 2026 dans un conteneur jetable : 25 à 38 Mo de RAM, prêt en moins d'une seconde.
 - Avant de pousser : `python verifier.py` doit répondre « Tout est bon. ».

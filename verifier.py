@@ -123,6 +123,9 @@ for a in args[1:]:
         soucis.append('clé %s passée deux fois' % m.group(1))
     paires[m.group(1)] = m.group(2)
 params = {c['FieldName']: c for c in config}
+# Capacité affichée par AMP et le site : celle d'un salon (le serveur n'a pas de limite de salons).
+if cles.get('App.MaxUsers') != params['JoueursMax']['DefaultValue']:
+    soucis.append('App.MaxUsers doit valoir le défaut de JoueursMax (%s)' % params['JoueursMax']['DefaultValue'])
 for c in config:
     if c['FieldName'] != c['ParamFieldName']:
         soucis.append('%s : FieldName et ParamFieldName différents' % c['FieldName'])
